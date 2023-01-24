@@ -1,0 +1,57 @@
+.infoBar {
+    display: flex;
+    align-items: center;
+}
+
+.block3 {
+    align-self: center;
+}
+
+.block4 {
+    display: flex;
+    align-self: start;
+    flex-direction: column;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.container {
+    padding: 30px 250px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-image: linear-gradient(to left, #15BFFD, #9C37FD) 1 stretch;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headText {
+    font-size: 18px;
+}
+
+.itemLink {
+    text-decoration: none;
+}
+
+.item {
+    margin: 10px 0;
+    cursor: pointer;
+    color: white;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}

@@ -1,0 +1,53 @@
+.container {
+    margin: 30px 250px 100px 250px;
+    padding: 0 200px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid transparent;
+    background: linear-gradient(#0C102D, #0C102D) padding-box,
+    linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%) border-box;
+}
+
+.title {
+    font-size: 72px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.form {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    color: #A2CBFB;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: linear-gradient(#0C102D, #0C102D) padding-box,
+    linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%) border-box;
+}
+
+.button {
+    margin-top: 10px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+}
+
+.status {
+    font-size: 24px;
+    padding: 10px;
+    color: red;
+}

@@ -1,0 +1,72 @@
+.title {
+    font-size: 72px;
+}
+
+.mentorsContainer {
+    flex-basis: 45%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mentorsTitle {
+    font-size: 32px;
+}
+
+.container {
+    padding: 30px 250px 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.mainContent {
+    justify-content: space-between;
+    display: flex;
+}
+
+.description {
+    margin-top: 80px;
+    flex-basis: 40%;
+}
+
+.vector {
+    width: 400px;
+    height: 150px;
+}
+
+.mentors {
+    justify-content: center;
+    display: flex;
+}
+
+.mentor {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
+    border: 2px solid transparent;
+}
+
+.mentor:nth-child(2) {
+    margin-top: -50px;
+    padding: 0 30px;
+}
+
+.mentorsName {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.mentorsDescription {
+    font-size: 14px;
+}

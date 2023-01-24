@@ -1,0 +1,258 @@
+.title {
+    font-size: 72px;
+    text-align: center;
+}
+
+.container {
+    padding: 30px 250px 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 180px;
+}
+
+.description {
+    color: #A2CBFB;
+}
+
+.line {
+    margin-top: 150px;
+    position: relative;
+    width: 4px;
+    height: 850px;
+    background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+}
+
+.circle1 {
+    position: absolute;
+    left: -10px;
+    border-radius: 50%;
+    background-color: #3B48D0;
+    width: 24px;
+    height: 24px
+}
+
+.stroke1 {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+}
+
+.stepCnt1 {
+    align-self: start;
+    padding: 20px;
+    position: relative;
+    bottom: 60px;
+    right: 480px;
+    width: 345px;
+    height: 150px;
+    border-radius: 8px;
+    background: #0C102D;
+}
+
+.wrapper1 {
+    width: 138px;
+    height: 200px;
+    position: relative;
+    bottom: 234px;
+    right: 251px;
+}
+
+.stepCnt1::before, .stepCnt2::before, .stepCnt3::before, .stepCnt4::before, .stepCnt5::before, .stepCnt6::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: linear-gradient(35deg, #15BFFD, #9C37FD);
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.circle2 {
+    position: absolute;
+    left: -10px;
+    top: 150px;
+    border-radius: 50%;
+    background-color: #3B48D0;
+    width: 24px;
+    height: 24px
+}
+
+.stroke2 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 160px;
+    left: 18px;
+}
+
+.stepCnt2 {
+    align-self: start;
+    padding: 20px;
+    position: relative;
+    bottom: 262px;
+    left: 139px;
+    width: 345px;
+    height: 150px;
+    border-radius: 8px;
+    background: #0C102D;
+}
+
+.wrapper2 {
+    transform: rotate(180deg);
+    width: 138px;
+    height: 200px;
+    position: relative;
+    bottom: 437px;
+    left: 120px;
+}
+
+.circle3 {
+    position: absolute;
+    left: -10px;
+    top: 350px;
+    border-radius: 50%;
+    background-color: #3B48D0;
+    width: 24px;
+    height: 24px
+}
+
+.stroke3 {
+    position: absolute;
+    top: 360px;
+    right: 18px;
+}
+
+.stepCnt3 {
+    align-self: start;
+    padding: 20px;
+    position: relative;
+    bottom: 415px;
+    right: 480px;
+    width: 345px;
+    height: 150px;
+    border-radius: 8px;
+    background: #0C102D;
+}
+
+.wrapper3 {
+    width: 138px;
+    height: 200px;
+    position: relative;
+    bottom: 590px;
+    right: 251px;
+}
+
+.circle4 {
+    position: absolute;
+    left: -10px;
+    top: 500px;
+    border-radius: 50%;
+    background-color: #3B48D0;
+    width: 24px;
+    height: 24px
+}
+
+.stroke4 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 510px;
+    left: 18px;
+}
+
+.stepCnt4 {
+    align-self: start;
+    padding: 20px;
+    position: relative;
+    bottom: 625px;
+    left: 139px;
+    width: 345px;
+    height: 150px;
+    border-radius: 8px;
+    background: #0C102D;
+}
+
+.wrapper4 {
+    transform: rotate(180deg);
+    width: 138px;
+    height: 200px;
+    position: relative;
+    bottom: 800px;
+    left: 120px;
+}
+
+.circle5 {
+    position: absolute;
+    left: -10px;
+    top: 700px;
+    border-radius: 50%;
+    background-color: #3B48D0;
+    width: 24px;
+    height: 24px
+}
+
+.stroke5 {
+    position: absolute;
+    top: 710px;
+    right: 18px;
+}
+
+.stepCnt5 {
+    align-self: start;
+    padding: 20px;
+    position: relative;
+    bottom: 770px;
+    right: 480px;
+    width: 345px;
+    height: 150px;
+    border-radius: 8px;
+    background: #0C102D;
+}
+
+.wrapper5 {
+    width: 138px;
+    height: 200px;
+    position: relative;
+    bottom: 945px;
+    right: 251px;
+}
+
+.circle6 {
+    position: absolute;
+    left: -10px;
+    top: 850px;
+    border-radius: 50%;
+    background-color: #3B48D0;
+    width: 24px;
+    height: 24px
+}
+
+.stroke6 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 860px;
+    left: 18px;
+}
+
+.stepCnt6 {
+    align-self: start;
+    padding: 20px;
+    position: relative;
+    bottom: 976px;
+    left: 139px;
+    width: 345px;
+    height: 150px;
+    border-radius: 8px;
+    background: #0C102D;
+}
+
+.wrapper6 {
+    transform: rotate(180deg);
+    width: 138px;
+    height: 200px;
+    position: relative;
+    bottom: 1150px;
+    left: 120px;
+}

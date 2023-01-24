@@ -1,0 +1,105 @@
+.title {
+    font-size: 72px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.mainContent {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 30px 250px 0 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 180px;
+}
+
+.coursesContainer {
+    flex-basis: 22%;
+}
+
+.coursesTitle {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.coursesDesc {
+    flex-basis: 40%;
+}
+
+.reviewContainer {
+    display: flex;
+    width: 712px;
+    flex-direction: column;
+}
+
+.reviewHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.selectedReview {
+    display: flex;
+}
+
+.reviewQueue {
+    display: flex;
+}
+
+.arrowContainer {
+    display: flex;
+    align-self: end;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    width: 99%;
+}
+
+.extendedWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+    width: 350px;
+    height: 377px;
+    background-image: url("../public/reviewWrapper2.png");
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 165px;
+    height: 377px;
+    background-size: cover;
+    background-image: url("../public/reviewWrapper.png");
+}
+
+.leftArrow {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.rightArrow {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
